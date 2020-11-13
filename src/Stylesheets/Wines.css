@@ -1,0 +1,189 @@
+/* ===( UI CARD )=== */
+
+.wine-ui-card {
+  width: 768px;
+  position: fixed;
+  top: 150px;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.wine-ui-card h1,
+.wine-ui-card h3 {
+  font-weight: 300;
+  text-align: left;
+}
+.lot-code {
+  position: relative;
+  padding-left: 35px;
+  margin: 6px 0;
+}
+.wine-ui-card header {
+  position: relative;
+}
+.wine-ui-card ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ===( DATA MENU )=== */
+
+.wine-menu > ul {
+  width: 322px;
+  display: flex;
+  justify-content: space-between;
+}
+.wine-menu {
+  position: absolute;
+  background: #e5e5e5db;
+  right: 0;
+  left: 0;
+  top: 366px;
+  padding-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 768px;
+}
+.wine-menu li {
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+  color: #7b8484;
+}
+.wine-menu li {
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+  color: #7b8484;
+}
+.wine-details {
+  margin: 21px 0;
+}
+.wine-label {
+  color: #7b8484;
+  text-decoration: none;
+  padding: 0 10px 6px 10px;
+}
+.wine-label:hover {
+  color: #0f1010;
+  transition: 0.2s color ease-in;
+}
+li {
+  list-style: none;
+  font-size: 18px;
+  margin: 4px 10px;
+}
+.menu-border {
+  background-color: rgb(95, 95, 95);
+  height: 0.8px;
+  width: 100%;
+  position: absolute;
+  bottom: -47px;
+}
+.not-available {
+  color: #aaa;
+}
+.active {
+  color: #242525;
+  border-bottom: 2.2px solid #00ada8;
+}
+
+/* ===( ICONS )=== */
+
+.edit-tool {
+  position: absolute;
+  background: #00ada8;
+  box-shadow: 0px 4px 8px rgba(51, 51, 51, 0.24);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  right: 0px;
+  padding: 13px;
+  top: -20px;
+  align-self: center;
+  justify-content: center;
+  flex-grow: 0;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.go-back {
+  position: absolute;
+  cursor: pointer;
+  top: -30px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  opacity: 0.7;
+}
+.go-back:hover,
+.edit-tool:hover {
+  opacity: 1;
+  transition: 0.1s all ease-in;
+}
+.w-icon {
+  font-weight: bold;
+  font-size: 12px;
+  background: linear-gradient(140deg, rgb(243, 170, 170), rgb(161, 60, 60));
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffffffe3;
+  position: absolute;
+  left: 0;
+  top: 7px;
+}
+
+/* ===( DATA TABLE )=== */
+
+.menu-options {
+  margin: 15px 0 50px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+  border: 0.5px solid #e8e8e8;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+.menu-options tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  border-bottom: 0.1px solid #e8e8e8;
+}
+.menu-options th {
+  padding: 0 16px;
+  font-weight: normal;
+  font-size: 12px;
+}
+.menu-options td {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  font-size: 13px;
+}
+.menu-options td:nth-child(2n) {
+  justify-content: flex-end;
+}
+.show-more {
+  height: 48px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-more span {
+  color: #00ada8;
+  cursor: pointer;
+}
+.show-more span:hover {
+  color: #047c78;
+  transition: 0.2s color ease-in;
+}
+.show-more svg {
+  margin-left: 4px;
+}
