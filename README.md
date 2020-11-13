@@ -1,4 +1,4 @@
-![Banner](/public/wine-search-banner.gif)
+![Banner](/public/wine-search-app-banner.gif)
 
 ## About
 
